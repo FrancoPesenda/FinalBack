@@ -1,4 +1,4 @@
-# App config
+
 server:
   port: 8102
 
@@ -14,7 +14,6 @@ spring:
     password: mysqlpw
     driver-class-name: com.mysql.cj.jdbc.Driver
 
-#Actuator: Monitoreando la salud de nuestros microservicios
 management:
   info:
     env:
@@ -27,5 +26,5 @@ management:
 info:
   app:
     name: Movie Service
-    description: El microservicio gestiona las operaciones sobre las películas
+    description: MS que opera peliculas
     version: 1.0.0

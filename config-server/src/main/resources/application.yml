@@ -8,15 +8,13 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/rdavid87/backendIExamenFinal
+          uri: https://github.com/FrancoPesenda/FinalBack
           default-label: main
           search-paths: config
 eureka:
   client:
     service-url:
       defaultZone: http://eureka-server:8761/eureka
-
-#Actuator: Monitoreando la salud de nuestros microservicios
 management:
   info:
     env:
@@ -29,5 +27,4 @@ management:
 info:
   app:
     name: ${spring.application.name}
-    description: Servidor para centralizar la configuraci�n de los dem�s microservicios
     version: 1.0.0
